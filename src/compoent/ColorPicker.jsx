@@ -1,6 +1,23 @@
 import React from 'react';
 const ColorPicker = ({ selectedColor , onSelectColor })=>{
- const colors = ['#ffffff','#ffcccb','#ffd700','#98fb98','#ddaOdd'];
+    const colors = [
+        '#ffffff',
+        '#ffcccb',
+        '#ffd700',
+        '#98fb98',
+        '#dda0dd',
+        '#00ced1',
+        '#7fffd4',
+        '#ff6347',
+        '#f0e68c',
+        '#dda0dd',
+        '#ffb6c1',
+        '#8a2be2',
+        '#b0c4de',
+        '#20b2aa',
+        '#4682b4',
+        
+      ];
  return(
     <div className="color-picker">
         {

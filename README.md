@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Google Keep Clone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project is a simplified version of Google Keep, a note-taking application, built using React. The application allows users to create, edit, and delete notes, organize them with color coding, and features a responsive design.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Project Structure](#project-structure)
+4. [Instructions for Running Locally](#instructions-for-running-locally)
+5. [Deployment (Optional)](#deployment-optional)
+6. [Evaluation Criteria](#evaluation-criteria)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Note Listing:** Display a list of notes with titles and content.
+- **Create Note:** Add new notes, which appear at the top of the list.
+- **Edit Note:** Modify note titles and content with real-time updates.
+- **Delete Note:** Remove notes with user confirmation.
+- **Responsive Design:** Ensures a seamless experience on various devices.
+- **Color Coding:** Assign different colors to notes for organization.
+- **Local Storage:** Persist notes even after page refresh.
+- **Bonus Feature (Optional):** Search functionality for filtering notes.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- CSS (styled-components for styling)
+- Local Storage
 
-### `npm run build`
+## Project Structure
+src/
+components/
+- Note.jsx
+- NoteList.jsx
+- CreateNote.jsx
+- Header.jsx
+- ColorPicker.jsx
+- Search.jsx 
+context/
+- NoteContext.js
+- NoteProvider.js
+customHook/
+- useNoteContext.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+App.js
+index.js
+## Desktop View Of Application
+![Alt text](DesktopView.PNG)
+## Mobile View 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instructions for Running Locally
 
-### `npm run eject`
+1. **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    git clone https://github.com/your-username/google-keep-clone.git
+    cd google-keep-clone
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Run the application:**
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Open the application in your browser at [http://localhost:3000](http://localhost:3000).**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment (Optional)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

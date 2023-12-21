@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ColorPicker from './ColorPicker';
+
 import { useNoteContext } from '../customHook/useNoteContext';
 
 
