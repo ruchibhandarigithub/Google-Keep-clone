@@ -51,7 +51,7 @@ index.js
 ## Desktop View Of Application
 ![Alt text](DesktopView.PNG)
 ## Mobile View 
-
+![Alt text](Screenshot_2023-12-21-14-16-04-02_439a3fec0400f8974d35eed09a31f914.jpg)
 ## Instructions for Running Locally
 
 1. **Clone the repository:**
