@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ColorPicker from './compoent/ColorPicker';
+import CreateNote from './compoent/CreateNote';
+
+import Header from './compoent/Header';
+import NoteList from './compoent/NoteList';
+import { NoteProvider } from './context/NoteProvider';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NoteProvider>
+    <div>
+       <Header />
+       <CreateNote />
+       <NoteList />
+       {/* <ColorPicker /> */}
+   </div>
+    </NoteProvider>
+   
   );
 }
 
