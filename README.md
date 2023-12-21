@@ -9,9 +9,11 @@ This project is a simplified version of Google Keep, a note-taking application, 
 1. [Features](#features)
 2. [Tech Stack](#tech-stack)
 3. [Project Structure](#project-structure)
-4. [Instructions for Running Locally](#instructions-for-running-locally)
-5. [Deployment (Optional)](#deployment-optional)
-6. [Evaluation Criteria](#evaluation-criteria)
+4. [Desktop View](#desktop-view)
+5. [Mobile View](#mobile-view)
+6. [Instructions for Running Locally](#instructions-for-running-locally)
+7. [Deployment (Optional)](#deployment-optional)
+8. [Evaluation Criteria](#evaluation-criteria)
 
 ## Features
 
@@ -22,7 +24,7 @@ This project is a simplified version of Google Keep, a note-taking application, 
 - **Responsive Design:** Ensures a seamless experience on various devices.
 - **Color Coding:** Assign different colors to notes for organization.
 - **Local Storage:** Persist notes even after page refresh.
-- **Bonus Feature (Optional):** Search functionality for filtering notes.
+- **Search Functionality:** Search functionality for filtering notes.
 
 ## Tech Stack
 
@@ -48,7 +50,7 @@ customHook/
 
 App.js
 index.js
-## Desktop View Of Application
+## Desktop View 
 ![Alt text](DesktopView.PNG)
 ## Mobile View 
 ![Alt text](Screenshot_2023-12-21-14-16-04-02_439a3fec0400f8974d35eed09a31f914.jpg)
@@ -57,7 +59,7 @@ index.js
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/google-keep-clone.git
+    git clone https://github.com/ruchibhandarigithub/google-keep-clone.git
     cd google-keep-clone
     ```
 
@@ -75,5 +77,6 @@ index.js
 
 4. **Open the application in your browser at [http://localhost:3000](http://localhost:3000).**
 
-## Deployment (Optional)
+## Deployment 
+- [https://google-keep-clone-4wo9.vercel.app/]
 
